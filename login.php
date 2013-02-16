@@ -25,3 +25,5 @@ if(!empty($username) && !empty($password)) {
 }
 
 echo 'Error: ' , $errors['login'];
+
+echo "This is a test";
