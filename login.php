@@ -23,7 +23,3 @@ if(!empty($username) && !empty($password)) {
 } else {
 	$errors['login'] = 'You have left a field empty!';
 }
-
-echo 'Error: ' , $errors['login'];
-
-echo "This is a test";
