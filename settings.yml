@@ -1,0 +1,8 @@
+Application:
+	database_connection:
+		host: localhost
+		port: 
+		username: root
+		password: password
+		database: Media
+	

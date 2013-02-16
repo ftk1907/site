@@ -1,0 +1,81 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box {
+		    background: #FCFAF9;
+		    box-shadow: 0 0 .2em #ddd;
+		    margin-bottom: .5em;
+		    padding: 0.5em;
+		    position: relative;
+		    border: none;
+		    border-top: 2px solid #555;
+		    color: #555;
+		}
+		.box.image {
+		    border-top: none;
+		}
+
+		.box.image .title {
+		    background: rgba(0, 0, 0, 0.5);
+		    bottom: 0;
+		    color: white;
+		    position: absolute;
+		    text-shadow: 0 0 2px black;
+		}
+
+		.grid {
+		    float: left;
+		    width: 24%;
+		    height: 10em;
+		    margin: 0 0 1% 1%;
+		    padding: 0;
+		}
+
+		.grid .box {
+		    -moz-box-sizing: border-box;
+		    width: 100%;
+		    overflow: hidden;
+		}
+
+		.grid .box div {
+		    width: 100%;
+		    height: 100%;
+		    overflow: hidden;
+		}
+
+		.grid .box div a{
+
+		    width: 100%;
+		    height: 100%;
+		    overflow: hidden;
+		}
+
+		.grid .box:hover {
+		    background: #f5f5f5;
+		}
+
+		.box img {
+		    height: 100%;
+		    display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class='grid'>
+		<div class='box image'>
+			<div>
+				<a href='?page=image&id=10'><img src='http://th00.deviantart.net/fs70/PRE/f/2010/001/f/f/Fenerbahce_Lac_by_sangarioz.png'/> <div class='hits'>235</div></a>
+			</div>
+		</div>
+	</div>
+
+	<div class='grid'>
+		<div class='box image'>
+			<div>
+				<a href='?page=image&id=14'><img src='http://fenerbahce.theoffside.com/files/2010/11/Alex-de-Souza-Fenerbah%C3%A7e-231110.jpg'/> <div class='hits'>1</div></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

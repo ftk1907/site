@@ -1,0 +1,1 @@
+<div class='box'><div class='title'>Upload</div><?=$error?></div>
